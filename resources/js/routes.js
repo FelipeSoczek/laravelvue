@@ -1,7 +1,7 @@
 // aqui importa o componente
 
-import ExampleComponent from "./components/ExampleComponent";
 import VueRouter from "vue-router";
+import Bookables from "./bookables/Bookables";
 import Example2 from "./components/Example2";
 
 
@@ -12,7 +12,7 @@ const routes = [
     {
         path: "/",
         // component é um objeto q pode ser renderizado pelo vue
-        component: ExampleComponent,
+        component: Bookables,
         name: "home",
     },
     {
